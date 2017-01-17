@@ -27,6 +27,29 @@
     margin: 1rem;
     box-sizing: border-box;
 }
+
+.footer-content {
+		border-top: 1px solid $grey-color-light;
+    position: relative;
+		margin: 0 8rem 0 8rem;
+    box-sizing: border-box;
+
+		.item {
+			padding: 0.5rem;
+			word-wrap: break-word;
+			color: black;
+			float: left;
+		}
+
+		.right {
+			float: right;
+		}
+
+		@media only screen and (max-width: 650px) {
+			margin: 0 4rem 0 4rem;
+		}
+}
+
 /**
  * Pages
  */
