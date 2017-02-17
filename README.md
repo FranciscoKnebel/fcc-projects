@@ -1,13 +1,17 @@
-# TextLog
+# FCC Projects
 
-TextLog is a minimalist content-focused Jekyll theme.
+### Front End
 
-[**Live Demo**](https://heiswayi.github.io/textlog)
+ - [Build a Wikipedia Viewer](/fcc-projects/2017/01/22/build-a-wikipedia-viewer/)
 
-### Screenshot
+ - [Show the Local Weather](/fcc-projects/2017/01/21/show-the-local-weather/)
 
-![Screenshot](http://i.imgur.com/htP3Xqc.png)
+ - [Build a Pomodoro Clock](/fcc-projects/2017/01/20/build-a-pomodoro-clock/)
 
-### License
+ - [Build a JavaScript Calculator](/fcc-projects/2017/01/19/build-a-js-calculator/)
 
-[MIT](LICENSE.md)
+ - [Build a Random Quote Machine](/fcc-projects/2017/01/18/build-a-random-quote-machine/)
+
+ - [Build a Personal Portfolio Webpage](/fcc-projects/2017/01/17/build-a-personal-portfolio-webpage/)
+
+### Back End

@@ -27,6 +27,10 @@ layout: default
     </p>
   </header>
   <div class="post-content" itemprop="articleBody">
+		{% if page.codepen %}
+			<iframe height='500' scrolling='no' title='{{ page.title }}' src='//codepen.io/KyoZeus/embed/{{ page.codepen }}/?height=500&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/KyoZeus/pen/{{ page.codepen }}/'>{{ page.title }}</a> by FPK (<a href='http://codepen.io/KyoZeus'>@KyoZeus</a>) on <a href='http://codepen.io'>CodePen</a>.
+			</iframe>
+		{% endif %}
     {{ content }}
 
     <p>[<a href="#top">Back to Top</a>]</p>

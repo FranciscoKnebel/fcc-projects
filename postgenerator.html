@@ -1,0 +1,11 @@
+---
+layout:
+---
+### Front End
+{% for post in site.posts %}
+{% if post.tags[1] == 'Front End' %} - [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) {% endif %}
+{% endfor %}
+### Back End
+{% for post in site.posts %}
+{% if post.tags[1] == 'Back End' %} - [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) {% endif %}
+{% endfor %}

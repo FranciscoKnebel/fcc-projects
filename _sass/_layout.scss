@@ -5,6 +5,14 @@
     border-bottom: 1px solid $grey-color-light;
     margin-top: -2rem;
     max-width: 48rem;
+
+		p {
+			transition: 0.3s;
+
+			&:hover {
+				transform: translateX(1rem);
+			}
+		}
 }
 
 .smallcap {
@@ -26,6 +34,11 @@
     padding: $spacing-unit ($spacing-unit * 0.75);
     margin: 1rem;
     box-sizing: border-box;
+
+		@media only screen and (max-width: 424px) {
+			margin: 0.5rem;
+			padding: 0;
+		}
 }
 
 .footer-content {
@@ -63,6 +76,11 @@
     margin-bottom: $spacing-unit / 4;
     list-style-type: none;
     margin-left: -2rem;
+		transition: 0.3s;
+
+		&:hover {
+			transform: translateX(1rem);
+		}
 
     a,
     a:hover {
@@ -97,6 +115,11 @@
     font-size: 2rem;
     letter-spacing: -1px;
     line-height: 1;
+		transition: 0.3s;
+
+		&:hover {
+			transform: translateX(1rem);
+		}
 }
 
 .post-meta {
