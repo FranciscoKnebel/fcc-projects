@@ -3,9 +3,16 @@ layout:
 ---
 ### Front End
 {% for post in site.posts %}
-{% if post.tags[1] == 'Front End' %} - [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) {% endif %}
+{% if post.tags[1] == 'Front End' %} - #### [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) - _{{ post.date | date: "%b %d, %Y" }}_{% if post.heroku %}
+	+ [Heroku]({{ post.heroku}}){% endif %}{% if post.codepen %}
+	+ [CodePen](https://codepen.io/KyoZeus/pen/{{ post.codepen }}){% endif %}{% if post.github %}
+	+ [GitHub]({{ post.github }}){% endif %}{% endif %}
 {% endfor %}
+
 ### Back End
 {% for post in site.posts %}
-{% if post.tags[1] == 'Back End' %} - [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) {% endif %}
+{% if post.tags[1] == 'Back End' %} - #### [{{post.title}}]({{ post.url | prepend: site.baseurl | prepend: site.githuburl }}) - _{{ post.date | date: "%b %d, %Y" }}_{% if post.heroku %}
+	+ [Heroku]({{ post.heroku}}){% endif %}{% if post.codepen %}
+	+ [CodePen](https://codepen.io/KyoZeus/pen/{{ post.codepen }}){% endif %}{% if post.github %}
+	+ [GitHub]({{ post.github }}){% endif %}{% endif %}
 {% endfor %}

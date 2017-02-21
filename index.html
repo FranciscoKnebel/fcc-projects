@@ -20,15 +20,30 @@ layout: default
 	</section>
 	<section>
 		<h1 class="smallcap">Back End</h1>
-		<ul class="post-list">
-			{% for post in site.posts %}
-				{% if post.tags[1] == 'Back End' %}
-					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-					</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
+		<section>
+			<h1 class="smallcap">Apps</h1>
+			<ul class="post-list">
+				{% for post in site.posts %}
+					{% if post.tags[0] == 'App' %}
+						<li>
+							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h1 class="smallcap">API</h1>
+			<ul class="post-list">
+				{% for post in site.posts %}
+				  {% if post.tags[0] == 'API' %}
+						<li>
+							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</section>
 	</section>
 	<section>
 		<h1 class="smallcap">Others</h1>
