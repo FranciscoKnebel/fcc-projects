@@ -3,7 +3,7 @@ layout: post
 title: URL Shortener Microservice
 tags: [API, Back End]
 author: Francisco Knebel
-thumbnail: urlshortener.png
+thumbnail: urlshortener.jpg
 heroku: https://smaller.herokuapp.com/
 github: https://github.com/FranciscoKnebel/fcc-URL-Shortener
 ---

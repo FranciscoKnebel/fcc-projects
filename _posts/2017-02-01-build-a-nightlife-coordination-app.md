@@ -3,7 +3,7 @@ layout: post
 title: Build a Nightlife Coordination App
 tags: [App, Back End]
 author: Francisco Knebel
-thumbnail: buildanightlifecoordinationapp.png
+thumbnail: buildanightlifecoordinationapp.jpg
 heroku: https://vidanoturna.herokuapp.com/
 github: https://github.com/franciscoknebel/fcc-nightlife
 ---

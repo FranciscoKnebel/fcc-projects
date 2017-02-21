@@ -3,7 +3,7 @@ layout: post
 title: Timestamp Microservice
 tags: [API, Back End]
 author: Francisco Knebel
-thumbnail: timestampmicroservice.png
+thumbnail: timestampmicroservice.jpg
 heroku: https://fcc-timestamper.herokuapp.com/
 github: https://github.com/franciscoknebel/fcc-timestamper
 ---

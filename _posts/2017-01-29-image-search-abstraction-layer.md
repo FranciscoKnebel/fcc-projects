@@ -3,7 +3,7 @@ layout: post
 title: Image Search Abstraction Layer
 tags: [API, Back End]
 author: Francisco Knebel
-thumbnail: imagesearch.png
+thumbnail: imagesearch.jpg
 heroku: https://fcc-img.herokuapp.com/
 github: https://github.com/FranciscoKnebel/fcc-ImageSearch
 ---

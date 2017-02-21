@@ -3,7 +3,7 @@ layout: post
 title: Build a Pinterest Clone
 tags: [App, Back End]
 author: Francisco Knebel
-thumbnail: pinterestclone.png
+thumbnail: pinterestclone.jpg
 heroku: https://limitless-lowlands.herokuapp.com/
 github: https://github.com/franciscoknebel/fcc-pinterest
 ---
@@ -20,6 +20,6 @@ github: https://github.com/franciscoknebel/fcc-pinterest
 
 - User Story: As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
 
-![Add Link]({{ site.url }}{{ site.baseurl }}/img/project/pinterest/addlink.png)
+![Add Link]({{ site.url }}{{ site.baseurl }}/img/project/pinterest/addlink.jpg)
 
-![Profile]({{ site.url }}{{ site.baseurl }}/img/project/pinterest/profile.png)
+![Profile]({{ site.url }}{{ site.baseurl }}/img/project/pinterest/profile.jpg)

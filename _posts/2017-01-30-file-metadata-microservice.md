@@ -3,7 +3,7 @@ layout: post
 title: File Metadata Microservice
 tags: [API, Back End]
 author: Francisco Knebel
-thumbnail: filemetadata.png
+thumbnail: filemetadata.jpg
 heroku: https://fcc-filedata.herokuapp.com/
 github: https://github.com/FranciscoKnebel/fcc-metadata
 ---

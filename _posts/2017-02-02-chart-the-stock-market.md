@@ -3,7 +3,7 @@ layout: post
 title: Chart the Stock Market
 tags: [App, Back End]
 author: Francisco Knebel
-thumbnail: chartthestockmarket.png
+thumbnail: chartthestockmarket.jpg
 heroku: https://fcc-stockmarket.herokuapp.com/
 github: https://github.com/FranciscoKnebel/fcc-stockmarket
 ---
