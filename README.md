@@ -30,7 +30,7 @@
   + [GitHub](https://github.com/FranciscoKnebel/fcc-QuoteMachine)
 
  - #### [Build a Personal Portfolio Webpage](https://franciscoknebel.github.io/fcc-projects/2016/01/01/build-a-personal-portfolio-webpage/) - _Jan 01, 2016_
-  + [CodePen](https://codepen.io/KyoZeus/pen/JERVQg)
+  + [CodePen](https://codepen.io/KyoZeus/pen/XXNzYe)
 
 ### Back End
 
