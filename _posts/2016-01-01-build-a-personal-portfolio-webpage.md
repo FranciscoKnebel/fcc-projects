@@ -3,7 +3,7 @@ layout: post
 title: Build a Personal Portfolio Webpage
 tags: [Zipline, Front End]
 author: Francisco Knebel
-codepen: JERVQg
+codepen: XXNzYe
 ---
 
 - User Story: I can access all of the portfolio webpage's content just by scrolling.
